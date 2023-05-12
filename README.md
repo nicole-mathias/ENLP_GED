@@ -1,13 +1,21 @@
 # ENLP_GED
 
 
+## Add other models
 
+<p>
 
 ## T5 model - JFLEG
 
+Build with [happyTransformer] (https://huggingface.co/vennify/t5-base-grammar-correction)
+
+<p> Files are located in the folder "t5_jfleg"
+
 ### Training the model
 
--In order to setup your environment first install the below requirements.
+<p> use "t5_traning.ipynb" file
+
+- In order to setup your environment first install the below requirements.
 
 ```shell
 !pip install happytransformer
@@ -16,7 +24,7 @@
 ```
 
 
--While running the program, if you run into errors, try running the below commands and restarting your environment
+- While running the program, if you run into errors, try running the below commands and restarting your environment
 
 ```shell
 !pip uninstall -y transformers accelerate
@@ -24,12 +32,19 @@
 !pip install transformers accelerate
 ```
 
+<p>
+
 -At the end, remember to connect to google drive or you can locally save the model that will be generated after it has been trained over the JFLEG data. If you decided to save the model to your google drive, remember to insert the path you want to save the model to.
 
+<p>
+<p>
 
 ### Using the pre-trained model 
 
--In order to setup your environment first install the below requirements.
+<p> use "t5_saved_model.ipynb" file
+
+
+- In order to setup your environment first install the below requirements.
 
 ```shell
 !pip install happytransformer
@@ -43,6 +58,10 @@
     max_length
     number_of_beams
 ```
+
+
+
+
 
 
 
