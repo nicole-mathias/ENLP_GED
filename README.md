@@ -1,10 +1,9 @@
 # ENLP_GED
 
 
-<!-- talk about how the model is saved and where it is saved and how you pick up the saved model for testing purpose -->
 
-<!-- please remeber to restart runtime, or uninstall and re-install transformers (sometimes there are issues while running this program) -->
 
+## T5 model - JFLEG
 
 ### Training the model
 
