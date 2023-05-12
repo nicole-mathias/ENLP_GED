@@ -7,7 +7,7 @@
 
 ## T5 model - JFLEG
 
-Build with [happyTransformer] (https://huggingface.co/vennify/t5-base-grammar-correction)
+Build with [happyTransformer](https://huggingface.co/vennify/t5-base-grammar-correction)
 
 <p> Files are located in the folder "t5_jfleg"
 
@@ -58,6 +58,16 @@ Build with [happyTransformer] (https://huggingface.co/vennify/t5-base-grammar-co
     max_length
     number_of_beams
 ```
+    
+
+<p> Below are some snippets of sample input given to the model which shouws how the grammar errors are corrected. We have used this feature for our GED task while performing evaluations on our multiGed test set.
+    
+<p>
+
+    <img width="998" alt="image" src="https://github.com/nicole-mathias/ENLP_GED/assets/47077945/81e16d0a-e7d7-46c2-8235-24ce9a2262a5">
+    
+    
+    <img width="998" alt="image" src="https://github.com/nicole-mathias/ENLP_GED/assets/47077945/fd78bf0b-6518-4d16-bbc1-058b8f218d50">
 
 
 
