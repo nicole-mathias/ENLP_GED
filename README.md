@@ -17,6 +17,20 @@ The default number of epochs for each training cycle is 3 - this can be lowered 
 
 <p>
 
+## Baseline, Glove and Bert (multilingual bert)
+
+<p> Folder name: baseline_glove_bert
+
+- In this part, we adapted our ENLP assignment no. 4 to work as a binary classification task for GED.
+
+- The multi-lingual bert experiment done here is different from the above multi-lingual bert, but we have included this as it was a part of our poster presentation earlier.
+
+- Note that we were only able to get glove embeddings for English and German
+
+- The dataset paths will need to be changed while running the files. All the datasets are included in the folder called "dataset".
+
+
+
 ## T5 model - JFLEG
 
 Build with [happyTransformer](https://huggingface.co/vennify/t5-base-grammar-correction)
