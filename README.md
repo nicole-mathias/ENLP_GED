@@ -1,7 +1,19 @@
 # ENLP_GED
 
 
-## Add other models
+## Multilingual Bert
+
+The notebook file for Multilingual Bert can be found in the multilingual_bert folder. Running the entire file will install all necessary dependencies to run to completion. GPU acceleration should be turned on.
+
+Pre-trained models are located here: https://drive.google.com/drive/folders/19ji6_PKl3shroJn9WdzNnl8Uvzg1kLmM?usp=share_link
+
+Note: all file paths will need to be changes to the corresponding file paths for you.
+All datasets for download can be found here under the datasets folder.
+
+The file will pre-process all data, train for the specified number of epochs on each dataset, and output evaluation metrics for FCE dev data. Evaluation metrics used are precision, recall, and F0.5.
+
+The default number of epochs for each training cycle is 3 - this can be lowered for time and resource constraints.
+
 
 <p>
 
